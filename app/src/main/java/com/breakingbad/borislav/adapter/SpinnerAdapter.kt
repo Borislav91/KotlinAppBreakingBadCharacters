@@ -45,7 +45,6 @@ class SpinnerAdapter(private val context: Context, var dataSource: Array<String>
 
     private class ItemHolder(row: View?) {
         val seasonName: TextView = row?.findViewById(R.id.season) as TextView
-
     }
 
 }

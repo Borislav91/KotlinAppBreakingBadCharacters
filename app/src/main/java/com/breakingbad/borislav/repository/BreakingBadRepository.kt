@@ -38,7 +38,7 @@ class BreakingBadRepository constructor(private val breakingBadInterface: Breaki
                             val characterEntity = CharacterEntity(
                                 character.char_id,
                                 character.img,
-                                character.nickname,
+                                character.name,
                                 character.nickname,
                                 character.occupation.toString(),
                                 character.status,
@@ -64,7 +64,6 @@ class BreakingBadRepository constructor(private val breakingBadInterface: Breaki
         } catch (exception: Exception) {
             fetched = -1
             charactersLiveData.postValue(null)
-
         }
     }
 
