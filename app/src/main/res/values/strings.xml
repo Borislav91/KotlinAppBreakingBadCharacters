@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Breaking Bad Characters</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="seasons">
+        <item>Filter by Season</item>
+        <item>Season 1</item>
+        <item>Season 2</item>
+        <item>Season 3</item>
+        <item>Season 4</item>
+        <item>Season 5</item>
+    </string-array>
+</resources>
