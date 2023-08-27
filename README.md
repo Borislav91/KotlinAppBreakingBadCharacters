@@ -1,5 +1,4 @@
-# KotlinAppBreakingBadCharacters
-GAN task 
+# KotlinAppBreakingBadCharacters 
 
 Android
 This test consists of building an app and will allow you to demonstrate your knowledge as an
